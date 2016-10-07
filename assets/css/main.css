@@ -1072,7 +1072,7 @@
 		background: #f0f0f0;
 		font-family: 'Source Sans Pro';
 		font-weight: 350;
-		color: #0;
+		color: #000;
 	}
 
 		body.is-loading * {
@@ -1088,6 +1088,7 @@
 
 	input, textarea, select {
 		font-family: 'Source Sans Pro';
+<<<<<<< HEAD
 		font-weight: 350;
 		color: #0;
 	}
@@ -1096,6 +1097,16 @@
 		font-weight: 700;
 		text-transform: uppercase;
 		color: #111;
+=======
+		font-weight: 300;
+		color: #777;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: 600;
+		text-transform: uppercase;
+		color: #888;
+>>>>>>> origin/master
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
