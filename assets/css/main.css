@@ -1095,6 +1095,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 700;
 		text-transform: uppercase;
+		text-align: center;
 		color: #111;
 	}
 
@@ -1179,6 +1180,7 @@
 
 	section, article {
 		margin-bottom: 3em;
+		text-align: left;
 	}
 
 	section > :last-child,
@@ -1186,6 +1188,7 @@
 	section:last-child,
 	article:last-child {
 		margin-bottom: 0;
+		text-align: left;
 	}
 
 /* Image */
@@ -1584,7 +1587,7 @@
 	}
 
 		#features-wrapper p {
-			text-align: center;
+			text-align: left;
 		}
 
 		#features-wrapper .actions {
