@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Spectaruler</title>
+		<title></title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -21,8 +21,8 @@
 					<div id="header" class="container">
 
 						<!-- Logo -->
-							<h1 id="logo"><a href="index.html">Spectaruler</a></h1>
-							<p>Team Size : 4</p>
+							<h1 id="logo"><a href="index.html">Student Graph</a></h1>
+							<p>Team Size : 1</p>
 
 					</div>
 				</div>
@@ -31,62 +31,36 @@
 				<div id="features-wrapper">
 					<section id="features" class="center">
 						<header>
-							<h2><strong>Problem</strong></h2>
+							<h2><strong>Description</strong></h2>
 						</header>
 						<body>
-							Generally humans do not carry a measuring tape in their pockets. Considering the fact that you are a human :-p, and you do not have a measuring tape in your pocket, what would you do if it is needed to measure an object lying in front of you? For instance, you want to measure the dimensions of the window of your house, maybe for getting your curtains stitched, what will you do ? Since you do not have a measuring tape in your pocket, you will find a measuring tape throughout your house, use a ladder, climb and take the dimensions. You might need a person to assist you. You might injure yourself too. What if your wrist movement can measure the entire dimensions for you?  
-
+							<ul style="list-style-type:disc">
+								<li>A Neo4j graph database of relationships existing between different students of a class.</li>
+								<li>Automated the process of parsing JSON and uploading data on the graph database.</li>
+								<li>Wrote efficient cypher queries to extract relevant insights, like students having similar interests etc., from the database.</li>
+								<li>A Dummy Graph looks like this.</li>
+							</ul>
 						</body>
-						
 					</section>
+					<div class="12u">
+								<img src="images/student_graph_1.png" height="500" width="800" />
+					</div>
 					<section id="features" class="center">
-						<header>
-							<h2><strong>Solution</strong></h2>
-						</header>
 						<body>
-							Spectaruler, an Android app, lets you solve this purpose. 
-							Only two clicks and your wrist movement enables user to measure the height of the object in front.  
+							<ul style="list-style-type:disc">
+								<li>A simple query helps one student know about a friend or a friend of friend who has completed the assignment.</li>
+							</ul>
 						</body>
 					</section>
-					<section id="features" class="center">
-						<header>
-							<h2><strong>Mobile Requirements</strong></h2>
-						</header>
-						<body>
-							1) Android smart phone <br>
-							2) Embedded with accelerometer <br>
-							3) Embedded with magnetometer  <br>
-						</body>
-					</section>
-					<section id="features" class="center">
-						<header>
-							<h2><strong>Methodology - Concept</strong></h2>  
-						</header>
-						<body>
-							<img src="images/explaination1.png" alt="" />
-							<img src="images/explaination2.png" alt="" />
-
-									<br>The user uses the camera to measure the angles. Once the angles are obtained, the calculation is nothing but simple trigonometry. 
-									<br>
-									<br>
-									<h1>
-									Measuring the angle </h1>
-									<br>
-									<br>
-									
-									The angle is measured by deriving the Rotation matrix. The rotation matrix makes use of Accelerometer and Magnetometer sensors in the android mobile. From this rotation matrix, azimuth, pitch and roll is derived. This enables us to calculate α and β.
-						</body>
-					</section>
-					<section id="features" class="center">
-						<header>
-							<h2><strong>Video Demonstration</strong></h2>
-						<body>
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/-Zfrfhru1mM" frameborder="0" allowfullscreen></iframe>
-						</body>
-					</section>
+					<div class="12u">
+								<img src="images/student_graph_query.png" height="500" />
+					</div>
+					<div class="12u">
+								<a href="https://github.com/shantanuCN/student_graph" class="button" target="_blank">View Code</a>
+					</div>
+					
 				</div>
-
-
+				
 			<!-- Main -->
 				
 
